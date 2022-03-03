@@ -149,3 +149,109 @@ WARNING: Unmatched cancel notification for request id 1
 2022.03.03 10:18:49 INFO  time: compiled todo in 5.05s
 2022.03.03 10:18:49 INFO  compiling todo (15 scala sources)
 2022.03.03 10:18:55 INFO  time: compiled todo in 5.4s
+2022.03.03 11:46:05 INFO  compiling todo (15 scala sources)
+2022.03.03 11:46:09 INFO  time: compiled todo in 4.34s
+2022.03.03 11:46:41 INFO  compiling todo-build (2 scala sources)
+2022.03.03 11:46:43 INFO  time: code lens generation in 1.76s
+2022.03.03 11:46:43 INFO  time: code lens generation in 1.76s
+2022.03.03 11:46:55 INFO  skipping build import with status 'Installed'
+2022.03.03 11:46:59 INFO  time: compiled todo-build in 17s
+2022.03.03 11:47:07 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/3k/zp1jhn5x4t7cx84fblxgbdvc0000gn/T/metals5166063506637282465/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.03 11:47:13 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.03.03 11:47:13 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/kostas/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.3/run_2.12-1.5.3.jar)
+2022.03.03 11:47:13 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.03.03 11:47:13 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.03.03 11:47:13 INFO  [info] welcome to sbt 1.5.3 (Oracle Corporation Java 17.0.2)
+2022.03.03 11:47:13 INFO  [info] loading settings for project todo-build-build-build from metals.sbt ...
+2022.03.03 11:47:13 INFO  [info] loading project definition from /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/project/project
+2022.03.03 11:47:14 INFO  [info] loading settings for project todo-build-build from metals.sbt ...
+2022.03.03 11:47:14 INFO  [info] loading project definition from /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/project
+2022.03.03 11:47:14 INFO  [success] Generated .bloop/todo-build-build.json
+2022.03.03 11:47:15 INFO  [success] Total time: 1 s, completed 3 Mar 2022, 11:47:15
+2022.03.03 11:47:15 INFO  [info] loading settings for project todo-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2022.03.03 11:47:15 INFO  [info] loading project definition from /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project
+2022.03.03 11:47:15 INFO  [success] Generated .bloop/todo-build.json
+2022.03.03 11:47:15 INFO  [success] Total time: 1 s, completed 3 Mar 2022, 11:47:16
+2022.03.03 11:47:17 INFO  [info] loading settings for project todo from assignment.sbt,build.sbt ...
+2022.03.03 11:47:20 INFO  [info] set current project to effective-scala-todo (in build file:/Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/)
+2022.03.03 11:47:20 INFO  [success] Generated .bloop/todo.json
+2022.03.03 11:47:20 INFO  [success] Generated .bloop/todo-test.json
+2022.03.03 11:47:20 INFO  [success] Total time: 1 s, completed 3 Mar 2022, 11:47:21
+2022.03.03 11:47:21 INFO  time: ran 'sbt bloopInstall' in 14s
+2022.03.03 11:47:21 INFO  Disconnecting from Bloop session...
+2022.03.03 11:47:21 INFO  Shut down connection with build server.
+2022.03.03 11:47:21 INFO  Shut down connection with build server.
+2022.03.03 11:47:21 INFO  Shut down connection with build server.
+2022.03.03 11:47:21 INFO  Attempting to connect to the build server...
+2022.03.03 11:47:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/.metals/bsp.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.03.03 11:47:21 INFO  Attempting to connect to the build server...
+2022.03.03 11:47:21 INFO  Attempting to connect to the build server...
+2022.03.03 11:47:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/.metals/bsp.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.03.03 11:47:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/project/.metals/bsp.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.03.03 11:47:21 INFO  time: Connected to build server in 0.24s
+2022.03.03 11:47:21 INFO  Connected to Build server: Bloop v1.4.12
+2022.03.03 11:47:22 INFO  time: indexed workspace in 1s
+Mar 03, 2022 11:47:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1646308043039,
+    "message": "Compiled \u0027todo-build\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/?id\u003dtodo-build"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/.bloop/todo-build/bloop-bsp-clients-classes/classes-Metals-9MuoHjCBSuOunAXIyMnp0g\u003d\u003d/",
+      "analysisOut": "file:///Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/.bloop/todo-build/todo-build-analysis.bin"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.meta.pc.PresentationCompiler.restart()" because "compiler" is null
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:243)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:241)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:241)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:240)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:240)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$13(MetalsLanguageServer.scala:422)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$13$adapted(MetalsLanguageServer.scala:420)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:183)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:180)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:179)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:179)
+	... 16 more
+
+2022.03.03 11:47:23 INFO  skipping build import with status 'Installed'
