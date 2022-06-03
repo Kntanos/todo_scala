@@ -30,10 +30,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Tasks$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IdGenerator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Tags.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CirceShim$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Tags$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PersistentModel.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CirceShim$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Id.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Task.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	State.class[0m
@@ -69,10 +67,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Tasks$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IdGenerator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Tags.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CirceShim$package$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Tags$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PersistentModel.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CirceShim$package.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Id.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Task.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	State.tasty[0m

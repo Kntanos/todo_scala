@@ -34,20 +34,28 @@ object InMemoryModel extends Model:
 
   def create(task: Task): Id =
     val id = idGenerator.nextId()
+    idStore += (id -> task)
     id
-
+ 
   def read(id: Id): Option[Task] =
-    idStore.get(id)
-
+    val task = idStore.get(id)
+    task
+    
   def complete(id: Id): Option[Task] =
-    None
+    val taskToComplete = idStore.get(id)
+      taskToComplete match
+        case Some(task) => Some(task.complete)
+        case None => None
+
 
   def update(id: Id)(f: Task => Task): Option[Task] =
     idStore.updateWith(id)(opt => opt.map(f))
 
   def delete(id: Id): Boolean =
-    var found = false
-    found
+    val deleted = idStore.remove(id)
+    deleted match
+      case Some(_) => true
+      case None => false
 
   def tasks: Tasks =
     Tasks(idStore)
@@ -56,7 +64,8 @@ object InMemoryModel extends Model:
     Tags(List.empty)
 
   def tasks(tag: Tag): Tasks =
-    Tasks(idStore)
+    val filteredByTag = idStore.filter((k,task) => task.tags.contains(tag))
+    Tasks(filteredByTag)
 
   def clear(): Unit =
     idStore.clear()

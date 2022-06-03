@@ -1,17 +1,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/effective-scala-todo_3-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io/circe[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io/circe[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io/circe/parser[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io/circe/parser[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io/circe/parser/CirceShim$package.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io/circe/parser/CirceShim$package.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io/circe/parser/CirceShim$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io/circe/parser/CirceShim$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	io/circe/parser/CirceShim$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/io/circe/parser/CirceShim$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	todo[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/target/scala-3.0.0/classes/todo[0m
 [0m[[0m[0mdebug[0m] [0m[0m	todo/IdGenerator.class[0m
