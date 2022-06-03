@@ -201,7 +201,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/todo/project/project"
                 ]

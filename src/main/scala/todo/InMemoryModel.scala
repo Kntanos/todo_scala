@@ -44,9 +44,8 @@ object InMemoryModel extends Model:
   def complete(id: Id): Option[Task] =
     val taskToComplete = idStore.get(id)
       taskToComplete match
-        case Some(task) => Some(task.complete)
+        case Some(_) => update(id)(task => task.copy(state = State.completedNow))
         case None => None
-
 
   def update(id: Id)(f: Task => Task): Option[Task] =
     idStore.updateWith(id)(opt => opt.map(f))
@@ -61,7 +60,10 @@ object InMemoryModel extends Model:
     Tasks(idStore)
 
   def tags: Tags =
-    Tags(List.empty)
+    val allTasks = idStore.values
+    val allTags = allTasks.map(task => task.tags)
+    val concTags = allTags.fold(List.empty)((acc, tagList) => acc ::: tagList).distinct
+    Tags(concTags)
 
   def tasks(tag: Tag): Tasks =
     val filteredByTag = idStore.filter((k,task) => task.tags.contains(tag))
